@@ -48,7 +48,7 @@ body.home .hero h1 {
 }
 .hero .lead a:hover { color: var(--accent); }
 .hero .aside {
-  margin-top: 40px;
+  margin-top: 10px;
   font-size: 18px; font-style: italic;
   color: var(--muted);
 }
