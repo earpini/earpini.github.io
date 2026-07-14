@@ -175,7 +175,6 @@ section + section { border-top: 1px solid var(--line); }
 }
 
 /* Projects page */
-body.projects-page { background: #dde3d1; }
 .projects-hero { padding: 90px 0 30px; max-width: 620px; }
 .projects-hero .eyebrow {
   font-family: "Inter", sans-serif;
@@ -223,7 +222,8 @@ body.projects-page { background: #dde3d1; }
   z-index: 2;
 }
 .card-b {
-  background: var(--bg);
+  background: #fff;
+  border: 1px solid var(--line);
   color: var(--ink);
   transform: rotate(2deg);
   margin-left: -56px;
