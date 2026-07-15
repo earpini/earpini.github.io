@@ -242,7 +242,13 @@ section + section { border-top: 1px solid var(--line); }
   font-weight: 500;
   font-size: clamp(26px, 3vw, 34px);
   line-height: 1.15;
-  margin: 28px 0;
+  margin: 28px 0 16px;
+}
+.card-desc {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 .card-stats {
   font-family: "Inter", sans-serif;
